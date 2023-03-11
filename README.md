@@ -10,7 +10,7 @@ henry@medullaai.com
 
 
 **USAGE**
-1. Install requirements with "pip install -r requirements.txt
+1. Install requirements by running "pip install -r requirements.txt in the command line.
 2. Import plea as a library with "from plea import PLEA"
 3. Use to enhance a text by creating an instance "plea = PLEA()"
 4. Then call the enhance_text with "output_texts = plea.enhance_text(input_text)"
