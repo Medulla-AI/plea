@@ -5,4 +5,4 @@ Language enhancement in this premise means the transformation of a bland body of
 \
 **Authors**\
 Henry Ndubuaku\
-henry@medullaai.com\
+henry@medullaai.com
