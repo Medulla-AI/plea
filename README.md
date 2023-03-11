@@ -7,7 +7,7 @@ Language enhancement in this premise means the transformation of a bland body of
 Henry Ndubuaku\
 henry@medullaai.com
 \
-**USAGE**\
+**USAGE**
 1. Install requirements with "pip install -r requirements.txt
 2. Import plea as a library with "from plea import PLEA"
 3. Use to enhance a text by creating an instance "plea = PLEA()"
