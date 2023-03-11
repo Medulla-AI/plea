@@ -39,7 +39,6 @@ class PLEA:
                 continue
 
             candidates = self.fill_mask(masked_text, top_k, confidence)
-            print(candidates)
             if len(candidates) < 1:
                 continue
 
