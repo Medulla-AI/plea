@@ -29,6 +29,7 @@ Rule-based comptational linguistics often encounter many compicating edge-cases,
 | MD  | Modal Auxillary Verb  | I 'can' call you           | replace mask        | I 'could' call you                 |
 
 **PLEA**\
+\'''
     let sentence (string): input sentence
     let n: number of possible sentences at each point 
     let *s*: sentence embedding
@@ -51,6 +52,7 @@ Rule-based comptational linguistics often encounter many compicating edge-cases,
        extend choices = sentences where 
        
     return choices
+\'''
 
 # USAGE
 1. Install requirements by running "pip install -r requirements.txt in the command line.
