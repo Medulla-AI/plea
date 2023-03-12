@@ -12,7 +12,7 @@ Language enhancement in this premise means the transformation of a bland body of
 This 
 
 | TAG  NAME                  | EXAMPLE                    | ENHANCEMENT    | EXAMPLE                            |
-| ------------------------------------------------------------------------------------------------------------- |
+| -------------------------- | -------------------------- | -------------- | ---------------------------------- |
 | JJR  Comparative Adjective | this is 'better'           | insert before  | this is 'significantly better'.    |
 | PDT  Predeterminer         | this is 'half' the journey | insert before  | this is 'only half' the journey.   |
 | RBR  Comparative Adverb    | she slept 'longer'         | insert before  | she slept 'relatively longer'      |
