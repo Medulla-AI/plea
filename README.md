@@ -21,7 +21,7 @@ PLEA searches for words with specific fine-grained part-of-speech tags, then eit
 
 Rule-based comptational linguistics often encounter many compicating edge-cases, hence the lingustic rules were limited to the 4 below with minimal edge cases.
 
-| TAG  NAME                   | EXAMPLE                    | ACTION              | EXAMPLE                            |
+| TAG | NAME                  | EXAMPLE                    | ACTION              | EXAMPLE                            |
 | --- | --------------------  | -------------------------- | ------------------- | ---------------------------------- |
 | JJR | Comparative Adjective | this is 'better'           | insert mask before  | this is 'significantly better'.    |
 | PDT | Predeterminer         | this is 'half' the journey | insert mask before  | this is 'only half' the journey.   |
@@ -29,28 +29,28 @@ Rule-based comptational linguistics often encounter many compicating edge-cases,
 | MD  | Modal Auxillary Verb  | I 'can' call you           | replace mask        | I 'could' call you                 |
 
 **PLEA**\
-1. let sentence (string): input sentence
-2. let n: number of possible sentences at each point 
-3. let *s*: sentence embedding
-4. let *P*: embeddings of potential sentences
-5. let c: confidence threshold
-6: let t: minimum sentencence similarity 
-7. 
-8. For word in sentence:
-9.
-10.    if POS-Tag of word is JJR or PDT or RBR:
-11.        Insert mask token before word
-12.
-13.    if POS-Tag of word is MD:
-14.        replace word with mask token
-15.      
-16.    else:
-17.        continue
-18.           
-19.    candidates = top-k replacement words where p(Word<sub>n</sub>|Word<sub>0</sub>...Word<sub>n-1</sub> & Word<sub>n+1</sub>...Word<sub>end</sub>) >= c
-20.    extend choices = sentences where 
-21.
-22. return choices
+    let sentence (string): input sentence
+    let n: number of possible sentences at each point 
+    let *s*: sentence embedding
+    let *P*: embeddings of potential sentences
+    let c: confidence threshold
+    let t: minimum sentencence similarity 
+    
+    For word in sentence:
+    
+       if POS-Tag of word is JJR or PDT or RBR:
+           Insert mask token before word
+    
+       if POS-Tag of word is MD:
+           replace word with mask token
+         
+       else:
+          continue
+              
+       candidates = top-k replacement words where p(Word<sub>n</sub>|Word<sub>0</sub>...Word<sub>n-1</sub> & Word<sub>n+1</sub>...Word<sub>end</sub>) >= c
+       extend choices = sentences where 
+       
+    return choices
 
 # USAGE
 1. Install requirements by running "pip install -r requirements.txt in the command line.
