@@ -50,7 +50,7 @@ Rule-based comptational linguistics often encounter many compicating edge-cases,
           
        chose top-k mask replacements where p(Word_n | Word_0 ... Word_n-1 & Word_n+1 ... Word_end) >= c
        
-   return sentences where (s . E) / ||s|| x ||E||) >= t
+   return sentences where (s.E / ||s||x||E||) >= t
 ```
 
 
