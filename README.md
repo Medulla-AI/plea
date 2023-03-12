@@ -1,5 +1,7 @@
 # PLEA: Progressive Language Enhancement Algorithm
 
+![Alt text](/images/plea.png "Plea Diagram")
+
 # AUTHORS
 Henry Ndubuaku\
 henry@medullaai.com
