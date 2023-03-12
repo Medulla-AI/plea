@@ -8,6 +8,18 @@ henry@medullaai.com
 Language enhancement in this premise means the transformation of a bland body of text to a rich and nuanced paraphrase. Few-shot fine-tuning of large language models has become the panacea to all sequence-to-sequence problems. This approach is however complicated by dataset acquisition and training intricacies. Also, there is little control over the output during inference. To this end, this work introduces PLEA, an algorithm that employs controllable computational linguistics to progressively find positions in the input text to transform, and a frozen mask-filling transformer to find the most appropriate replacements or insertions for each.
 
 
+# APPROACH
+This 
+
+| ------------------------------------------------------------------------------------------------------------- |
+| TAG  NAME                  | EXAMPLE                    | ENHANCEMENT    | EXAMPLE                            |
+| ------------------------------------------------------------------------------------------------------------- |
+| JJR  Comparative Adjective | this is 'better'           | insert before  | this is 'significantly better'.    |
+| PDT  Predeterminer         | this is 'half' the journey | insert before  | this is 'only half' the journey.   |
+| RBR  Comparative Adverb    | she slept 'longer'         | insert before  | she slept 'relatively longer'      |
+| MD   Modal Auxillary Verb  | I 'can' call you           | replace        | I 'could' call you                 |
+| ------------------------------------------------------------------------------------------------------------- |
+
 # USAGE
 1. Install requirements by running "pip install -r requirements.txt in the command line.
 2. Import plea as a library with "from plea import PLEA"
