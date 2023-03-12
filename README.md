@@ -11,14 +11,12 @@ Language enhancement in this premise means the transformation of a bland body of
 # APPROACH
 This 
 
-| ------------------------------------------------------------------------------------------------------------- |
 | TAG  NAME                  | EXAMPLE                    | ENHANCEMENT    | EXAMPLE                            |
 | ------------------------------------------------------------------------------------------------------------- |
 | JJR  Comparative Adjective | this is 'better'           | insert before  | this is 'significantly better'.    |
 | PDT  Predeterminer         | this is 'half' the journey | insert before  | this is 'only half' the journey.   |
 | RBR  Comparative Adverb    | she slept 'longer'         | insert before  | she slept 'relatively longer'      |
 | MD   Modal Auxillary Verb  | I 'can' call you           | replace        | I 'could' call you                 |
-| ------------------------------------------------------------------------------------------------------------- |
 
 # USAGE
 1. Install requirements by running "pip install -r requirements.txt in the command line.
