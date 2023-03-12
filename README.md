@@ -33,7 +33,7 @@ Rule-based comptational linguistics often encounter many compicating edge-cases,
     let sentence (string): input sentence
     let n: number of possible sentences at each point 
     let *s*: sentence embedding
-    let *P*: embeddings of potential sentences
+    let *E*: embeddings of potential sentences
     let c: confidence threshold
     let t: minimum sentencence similarity 
     
@@ -47,9 +47,9 @@ Rule-based comptational linguistics often encounter many compicating edge-cases,
          
        else:
           continue
-              
-       candidates = top-k replacement words where p(Word<sub>n</sub>|Word<sub>0</sub>...Word<sub>n-1</sub> & Word<sub>n+1</sub>...Word<sub>end</sub>) >= c
-       extend choices = sentences where 
+              <sub>henry</sub>
+       candidates = top-k replacement words where p(Word<sub>n</sub> | Word<sub>0</sub>...Word<sub>n-1</sub> & Word<sub>n+1</sub>...Word<sub>end</sub>) >= c
+       extend choices = sentences where (*s* . *E* / ||*s*|| x ||*E*||) >= t
        
     return choices
 ```
